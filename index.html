@@ -12,18 +12,32 @@
 
 <body>
 
-    <div class="header">
+    <header>
         <div class="header_top container">
             <div class="left_content">
                 <a href="#"><img class="logo" src="img/logo.png"></a>
                 <p class="brand_name"><a href="#">Bran<span>D</span></a></p>
                 <form class="header_form" action="#">
-                    <select class="search_dropdown" name="search">
-                        <option value="browse">Browse</option>
-                        <option value="dress">Dress</option>
-                        <option value="denim">Denim</option>
-                        <option value="jackets">Jackets/Coats</option>
-                    </select>
+                    <details class="search_dropdown" name="search">
+                        <summary>Browse <i class="fa fa-caret-down"></i> </summary>
+                        <div class="search_dropdown_list">
+                            <h3 class="search_dropdown_headding">Women</h3>
+                            <a class="search_dropdown_link" href="#">Tops</a>
+                            <a class="search_dropdown_link" href="#">Jackets</a>
+                            <a class="search_dropdown_link" href="#">Knits/Sweaters</a>
+                            <a class="search_dropdown_link" href="#">Blazers</a>
+                            <a class="search_dropdown_link" href="#">Denim</a>
+                            <a class="search_dropdown_link" href="#">Leggins/Pants</a>
+                            <a class="search_dropdown_link" href="#">Skirts/Shorts</a>
+                            <a class="search_dropdown_link" href="#">Accessoires</a>
+                            <h3 class="search_dropdown_headding">Men</h3>
+                            <a class="search_dropdown_link" href="#">Jackets</a>
+                            <a class="search_dropdown_link" href="#">Blazers</a>
+                            <a class="search_dropdown_link" href="#">Denim</a>
+                            <a class="search_dropdown_link" href="#">Shorts/Pants</a>
+                            <a class="search_dropdown_link" href="#">Accessoires</a>
+                        </div>
+                    </details>
                     <input class="search_input" type="text" size="35" placeholder="Search for item...">
                     <input class="search_submit fa" type="submit" value="&#xf002">
                 </form>
@@ -217,7 +231,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <div class="main">
         <div class="container">
             <div class="main_items">
@@ -267,8 +281,8 @@
                 <p class="featured_items_text_line">Shop for items based on what we featured in this week</p>
                 <div class="featured_items_items_cards">
                     <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
                             <div class="featured_items_card_description">
                                 <p>Mango T-shirt</p><br>
                                 <span class="featured_items_card_price">$20.00</span>
@@ -276,53 +290,8 @@
                         </a>
                     </div>
                     <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
-                            <div class="featured_items_card_description">
-                                <p>ETam T-shirt</p><br>
-                                <span class="featured_items_card_price">$45.60</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
-                            <div class="featured_items_card_description">
-                                <p>Mango T-shirt</p><br>
-                                <span class="featured_items_card_price">$30.00</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
-                            <div class="featured_items_card_description">
-                                <p>People T-shirt</p><br>
-                                <span class="featured_items_card_price">$26.00</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
-                            <div class="featured_items_card_description">
-                                <p>Cropp T-shirt</p><br>
-                                <span class="featured_items_card_price">$30.00</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
-                            <div class="featured_items_card_description">
-                                <p>H&M top</p><br>
-                                <span class="featured_items_card_price">$70.30</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
                             <div class="featured_items_card_description">
                                 <p>Mango T-shirt</p><br>
                                 <span class="featured_items_card_price">$20.00</span>
@@ -330,15 +299,59 @@
                         </a>
                     </div>
                     <div class="featured_items_card">
-                        <a href=#>
-                            <img src="img/FeaturedI1.png">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
                             <div class="featured_items_card_description">
                                 <p>Mango T-shirt</p><br>
                                 <span class="featured_items_card_price">$20.00</span>
                             </div>
                         </a>
                     </div>
-
+                    <div class="featured_items_card">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
+                            <div class="featured_items_card_description">
+                                <p>Mango T-shirt</p><br>
+                                <span class="featured_items_card_price">$20.00</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured_items_card">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
+                            <div class="featured_items_card_description">
+                                <p>Mango T-shirt</p><br>
+                                <span class="featured_items_card_price">$20.00</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured_items_card">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
+                            <div class="featured_items_card_description">
+                                <p>Mango T-shirt</p><br>
+                                <span class="featured_items_card_price">$20.00</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured_items_card">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
+                            <div class="featured_items_card_description">
+                                <p>Mango T-shirt</p><br>
+                                <span class="featured_items_card_price">$20.00</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured_items_card">
+                        <a class="featured_items_card_link" href=#>
+                            <div class="featured_items_card_img"><img src="img/FeaturedI1.png"></div>
+                            <div class="featured_items_card_description">
+                                <p>Mango T-shirt</p><br>
+                                <span class="featured_items_card_price">$20.00</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="featured_items_button">
                     <a href="#">
@@ -388,7 +401,7 @@
     <footer class="footer">
         <div class="top_footer">
             <div class="top_footer_content container">
-                <div class="top_footer_opinion">
+                <figure class="top_footer_opinion">
                     <div class="top_footer_opinion_img">
                         <img src="img/photo_opinion.png">
                     </div>
@@ -402,7 +415,7 @@
                     <!-- <div class="top_footer_opinion_carousel">
                         <span></span><span></span><span></span>
                     </div> -->
-                </div>
+                </figure>
                 <div class="top_footer_newsletter">
                     <h2>Subscribe</h2>
                     <p> FOR OUR NEWSLETTER AND PROMOTION</p>
@@ -414,8 +427,45 @@
             </div>
         </div>
         <div class="main_footer container">
-            <div class="main_footer_description"></div>
-            <div class="main_footer_menu"></div>
+            <div class="main_footer_description">
+                <div class="footer_logo">
+                    <a href="#"><img class="logo" src="img/logo.png"></a>
+                    <p class="brand_name"><a href="#">Bran<span>D</span></a></p>
+                </div>
+                <p class="main_footer_description_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ratione
+                    omnis ut eum atque aspernatur odit
+                    consequatur quis laudantium reprehenderit autem? Libero illum consectetur velit esse laudantium
+                    vitae, neque fugit iure!
+                    Tempore facilis fugiat numquam autem deserunt error architecto adipisci ex amet expedita nobis a
+                    aliquam, dolorem at odit laboriosam voluptatibus libero tenetur? Voluptas praesentium tempore,
+                    fugiat ut voluptatum est optio.</p>
+            </div>
+            <div class="main_footer_menu">
+                <ul class="main_footer_menu_list">
+                    <lh>Company</lh>
+                    <li><a class="main_footer_menu_item" href="#">Home</a></li>
+                    <li><a class="main_footer_menu_item" href="#">Home</a></li>
+                    <li><a class="main_footer_menu_item" href="#">Home</a></li>
+                    <li><a class="main_footer_menu_item" href="#">Home</a></li>
+                    <li><a class="main_footer_menu_item" href="#">Home</a></li>
+                </ul>
+                <ul class="main_footer_menu_list">
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                </ul>
+                <ul class="main_footer_menu_list">
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                    <li class="main_footer_menu_item"></li>
+                </ul>
+
+            </div>
         </div>
         <div class="bottom_footer">
             <div class="bottom_footer_content container">
