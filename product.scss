@@ -8,6 +8,14 @@ $secondary_color:#f16d7f;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
 }
+.link_hover_style{
+    color:$secondary_color
+}
+.button_hover_style{
+    background-color: #fff;
+    border: 2px solid $secondary_color;
+    color: $secondary_color;
+}
 
 
 body{
@@ -228,14 +236,13 @@ header{
     cursor:pointer;
     text-transform: capitalize;
     letter-spacing: 0.4px;
+    border-radius:3px
 }
 .account_button{
     padding: 8px 20px;
 }
 .account_button:hover,.featured_items_all_button:hover,.cart_dropdown_buttons:hover{
-    background-color: #fff;
-    border: 2px solid $secondary_color;
-    color: $secondary_color;
+    @extend.button_hover_style;
 }
 hr{
     background-color:#afb3b7;
@@ -264,6 +271,9 @@ hr{
     font-size: 14px;
     font-weight: 700;
     @extend .link_style;
+}
+.top_menu_item:hover .top_menu_item_link{
+    @extend.link_hover_style;
 }
 .mega_menu{
     display: none;
@@ -309,7 +319,7 @@ hr{
     line-height: 28px;
 }
 .mega_menu_link:hover,.search_dropdown_link:hover ,.side_dropdown_link:hover{
-    color:$secondary_color;
+    @extend .link_hover_style
 }
 .mega_menu_item{
     margin-right:46px;
@@ -355,6 +365,9 @@ hr{
 }
 .breadcr_last{
     color:$secondary_color;
+}
+.breadcrumbs_link:hover{
+    @extend .link_hover_style;
 }
 .main_content{
     display: flex;
@@ -563,14 +576,42 @@ input[type=range]::-webkit-slider-runnable-track {
     font-family: $font-stack;
     color: $secondary_color;
     font-weight: 500;
+    border-radius:3px;
 }
+.products_all_button:hover{
+    color:#fff;
+    background-color: $secondary_color;
 
-
-
-
-
-
-
+}
+.offer_banner_box{
+    background-color: #222;
+}
+.offer_banner_inner_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 115px 0 ;
+    align-items: center;
+}
+.offer_banner{
+    text-align: center;
+}
+.offer_banner h3{
+    font-size: 20px;
+    font-family: $font-stack;
+    color: #fff;
+    margin: 25px 0 17px 0;
+}
+.offer_banner p{
+    color: #fff;
+    font-size: 14px;
+}
+.second_banner h3{
+    margin: 20px 0 17px 0;
+}
+.third_banner h3{
+    margin: 20px 0 17px 0;
+}
+  
 .top_footer_content{
     display: flex;
     justify-content: space-between;
@@ -675,9 +716,7 @@ input[type=range]::-webkit-slider-runnable-track {
     letter-spacing: 0.35px;
 }
 .newsletter_submit:hover{
-    color:$secondary_color;
-    background-color: #fff;
-    border: 2px solid $secondary_color;
+    @extend .button_hover_style;
 }
 .footer_logo{
     display: flex;
@@ -733,7 +772,7 @@ input[type=range]::-webkit-slider-runnable-track {
     margin-left:60px;
 }
 .main_footer_menu_link:hover{
-    color: $secondary_color;
+    @extend.link_hover_style;
 }
 .bottom_footer{
     background-color: #e6e6e6;

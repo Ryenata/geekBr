@@ -5,6 +5,16 @@
   font-family: 'Lato', sans-serif;
 }
 
+.link_hover_style, .top_menu_item:hover .top_menu_item_link, .mega_menu_link:hover, .search_dropdown_link:hover, .side_dropdown_link:hover, .breadcrumbs_link:hover, .main_footer_menu_link:hover {
+  color: #f16d7f;
+}
+
+.button_hover_style, .account_button:hover, .featured_items_all_button:hover, .cart_dropdown_buttons:hover, .newsletter_submit:hover {
+  background-color: #fff;
+  border: 2px solid #f16d7f;
+  color: #f16d7f;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -295,16 +305,11 @@ header {
   cursor: pointer;
   text-transform: capitalize;
   letter-spacing: 0.4px;
+  border-radius: 3px;
 }
 
 .account_button {
   padding: 8px 20px;
-}
-
-.account_button:hover, .featured_items_all_button:hover, .cart_dropdown_buttons:hover {
-  background-color: #fff;
-  border: 2px solid #f16d7f;
-  color: #f16d7f;
 }
 
 hr {
@@ -388,10 +393,6 @@ hr {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 28px;
-}
-
-.mega_menu_link:hover, .search_dropdown_link:hover, .side_dropdown_link:hover {
-  color: #f16d7f;
 }
 
 .mega_menu_item {
@@ -741,6 +742,53 @@ input[type=range]::-webkit-slider-thumb {
   font-family: "Lato", sans-serif;
   color: #f16d7f;
   font-weight: 500;
+  border-radius: 3px;
+}
+
+.products_all_button:hover {
+  color: #fff;
+  background-color: #f16d7f;
+}
+
+.offer_banner_box {
+  background-color: #222;
+}
+
+.offer_banner_inner_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 90px 0 115px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.offer_banner {
+  text-align: center;
+}
+
+.offer_banner h3 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  margin: 25px 0 17px 0;
+}
+
+.offer_banner p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.second_banner h3 {
+  margin: 20px 0 17px 0;
+}
+
+.third_banner h3 {
+  margin: 20px 0 17px 0;
 }
 
 .top_footer_content {
@@ -881,12 +929,6 @@ input[type=range]::-webkit-slider-thumb {
   letter-spacing: 0.35px;
 }
 
-.newsletter_submit:hover {
-  color: #f16d7f;
-  background-color: #fff;
-  border: 2px solid #f16d7f;
-}
-
 .footer_logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -957,10 +999,6 @@ input[type=range]::-webkit-slider-thumb {
 
 .main_footer_menu_list:first-of-type {
   margin-left: 60px;
-}
-
-.main_footer_menu_link:hover {
-  color: #f16d7f;
 }
 
 .bottom_footer {
