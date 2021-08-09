@@ -227,7 +227,7 @@ header{
 .cart_dropdown_buttons:last-of-type{
     margin-bottom:0;
 }
-.account_button{
+.account_button,.featured_items_all_button{
     background-color: $secondary_color;
     color:#ffffff;
     font-family:  $font-stack;
@@ -241,7 +241,7 @@ header{
 .account_button{
     padding: 8px 20px;
 }
-.account_button:hover,.cart_dropdown_buttons:hover{
+.account_button:hover,.featured_items_all_button:hover,.cart_dropdown_buttons:hover{
     @extend.button_hover_style;
 }
 hr{

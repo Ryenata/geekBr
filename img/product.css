@@ -9,7 +9,7 @@
   color: #f16d7f;
 }
 
-.button_hover_style, .account_button:hover, .cart_dropdown_buttons:hover, .newsletter_submit:hover {
+.button_hover_style, .account_button:hover, .featured_items_all_button:hover, .cart_dropdown_buttons:hover, .newsletter_submit:hover {
   background-color: #fff;
   border: 2px solid #f16d7f;
   color: #f16d7f;
@@ -296,7 +296,7 @@ header {
   margin-bottom: 0;
 }
 
-.account_button {
+.account_button, .featured_items_all_button {
   background-color: #f16d7f;
   color: #ffffff;
   font-family: "Lato", sans-serif;
